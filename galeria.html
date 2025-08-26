@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Miguel Costa Silva</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navegação -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>MiguelCS</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="jogos.html">Jogos</a></li>
+                    <li><a href="horarios.html">Horários</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="galeria.html" class="active">Galeria</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Página Galeria -->
+    <section class="page-header">
+        <div class="container">
+            <h2>Galeria</h2>
+            <p>Momentos épicos das transmissões</p>
+        </div>
+    </section>
+
+    <section class="galeria">
+        <div class="container">
+            <div class="galeria-filtros">
+                <button class="filtro-btn active" data-filter="todos">Todos</button>
+                <button class="filtro-btn" data-filter="subway">Subway Surfers</button>
+                <button class="filtro-btn" data-filter="chess">Chess Club</button>
+                <button class="filtro-btn" data-filter="clash">Clash Royale</button>
+            </div>
+
+            <div class="galeria-grid">
+                <div class="galeria-item" data-categoria="subway">
+                    <img src="https://placehold.co/400x300/9146FF/FFFFFF?text=Subway+Surfers+Gameplay" alt="Subway Surfers Gameplay">
+                    <div class="galeria-overlay">
+                        <h3>Subway Surfers</h3>
+                        <p>Recorde pessoal: 1.250.000 pontos</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="chess">
+                    <img src="https://placehold.co/400x300/0066CC/FFFFFF?text=Chess+Club+Partida" alt="Chess Club Partida">
+                    <div class="galeria-overlay">
+                        <h3>Chess Club</h3>
+                        <p>Vitória em torneio comunitário</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="clash">
+                    <img src="https://placehold.co/400x300/9146FF/FFFFFF?text=Clash+Royale+Batalha" alt="Clash Royale Batalha">
+                    <div class="galeria-overlay">
+                        <h3>Clash Royale</h3>
+                        <p>Batalha épica contra top player</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="subway">
+                    <img src="https://placehold.co/400x300/0066CC/FFFFFF?text=Subway+Surfers+Desafio" alt="Subway Surfers Desafio">
+                    <div class="galeria-overlay">
+                        <h3>Subway Surfers</h3>
+                        <p>Desafio de 1 hora sem morrer</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="chess">
+                    <img src="https://placehold.co/400x300/9146FF/FFFFFF?text=Xeque-Mate" alt="Xeque-Mate">
+                    <div class="galeria-overlay">
+                        <h3>Chess Club</h3>
+                        <p>Xeque-mate em 10 jogadas</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="clash">
+                    <img src="https://placehold.co/400x300/0066CC/FFFFFF?text=Arena+14" alt="Arena 14">
+                    <div class="galeria-overlay">
+                        <h3>Clash Royale</h3>
+                        <p>Chegando à Arena 14</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="subway">
+                    <img src="https://placehold.co/400x300/9146FF/FFFFFF?text=Novo+Personagem" alt="Novo Personagem">
+                    <div class="galeria-overlay">
+                        <h3>Subway Surfers</h3>
+                        <p>Desbloqueando novo personagem</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="chess">
+                    <img src="https://placehold.co/400x300/0066CC/FFFFFF?text=Torneio+Comunitário" alt="Torneio Comunitário">
+                    <div class="galeria-overlay">
+                        <h3>Chess Club</h3>
+                        <p>Organizando torneio para a comunidade</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item" data-categoria="clash">
+                    <img src="https://placehold.co/400x300/9146FF/FFFFFF?text=Deck+Vitorioso" alt="Deck Vitorioso">
+                    <div class="galeria-overlay">
+                        <h3>Clash Royale</h3>
+                        <p>Novo deck com 90% de vitórias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MiguelCS Streams</h3>
+                    <p>Transmitindo jogos incríveis com muita diversão e interação.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Conecte-se</h3>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-twitch"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Miguel Costa Silva - Colégio Estadual Professor Ricardo Lunardelli - Turma de Robótica</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
