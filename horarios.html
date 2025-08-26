@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários - Miguel Costa Silva</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navegação -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>MiguelCS</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="jogos.html">Jogos</a></li>
+                    <li><a href="horarios.html" class="active">Horários</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Página Horários -->
+    <section class="page-header">
+        <div class="container">
+            <h2>Horários de Transmissão</h2>
+            <p>Confira quando estarei online</p>
+        </div>
+    </section>
+
+    <section class="horarios">
+        <div class="container">
+            <div class="calendario">
+                <div class="calendario-header">
+                    <button id="prev-week" class="calendario-nav"><i class="fas fa-chevron-left"></i></button>
+                    <h3 id="week-range">Semana Atual</h3>
+                    <button id="next-week" class="calendario-nav"><i class="fas fa-chevron-right"></i></button>
+                </div>
+
+                <div class="dias-semana">
+                    <div class="dia">
+                        <h4>Segunda-feira</h4>
+                        <div class="transmissao">
+                            <p class="transmissao-jogo">Subway Surfers</p>
+                            <p class="transmissao-horario">15:00 - 17:00</p>
+                            <span class="status status-agendada">Agendada</span>
+                        </div>
+                    </div>
+
+                    <div class="dia">
+                        <h4>Terça-feira</h4>
+                        <div class="transmissao">
+                            <p class="transmissao-jogo">Chess Club</p>
+                            <p class="transmissao-horario">16:00 - 18:00</p>
+                            <span class="status status-agendada">Agendada</span>
+                        </div>
+                    </div>
+
+                    <div class="dia">
+                        <h4>Quarta-feira</h4>
+                        <div class="transmissao">
+                            <p class="transmissao-jogo">Clash Royale</p>
+                            <p class="transmissao-horario">14:00 - 16:00</p>
+                            <span class="status status-agendada">Agendada</span>
+                        </div>
+                    </div>
+
+                    <div class="dia">
+                        <h4>Quinta-feira</h4>
+                        <div class="transmissao">
+                            <p class="transmissao-jogo">Subway Surfers</p>
+                            <p class="transmissao-horario">15:00 - 17:00</p>
+                            <span class="status status-agendada">Agendada</span>
+                        </div>
+                    </div>
+
+                    <div class="dia">
+                        <h4>Sexta-feira</h4>
+                        <div class="transmissao">
+                            <p class="transmissao-jogo">Clash Royale</p>
+                            <p class="transmissao-horario">17:00 - 19:00</p>
+                            <span class="status status-agendada">Agendada</span>
+                        </div>
+                    </div>
+
+                    <div class="dia">
+                        <h4>Sábado</h4>
+                        <div class="transmissao">
+                            <p class="transmissao-jogo">Chess Club</p>
+                            <p class="transmissao-horario">10:00 - 12:00</p>
+                            <span class="status status-agendada">Agendada</span>
+                        </div>
+                        <div class="transmissao">
+                            <p class="transmissao-jogo">Torneio Comunitário</p>
+                            <p class="transmissao-horario">14:00 - 16:00</p>
+                            <span class="status status-destaque">Evento Especial</span>
+                        </div>
+                    </div>
+
+                    <div class="dia">
+                        <h4>Domingo</h4>
+                        <div class="transmissao">
+                            <p class="transmissao-jogo">Surpresa</p>
+                            <p class="transmissao-horario">15:00 - 17:00</p>
+                            <span class="status status-agendada">Agendada</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proximos-eventos">
+                <h3>Próximos Eventos Especiais</h3>
+                <div class="evento-item">
+                    <h4>Torneio de Xadrez Comunitário</h4>
+                    <p class="evento-data">Sábado, 15 de Julho - 14:00</p>
+                    <p>Participe do nosso torneio aberto de xadrez com prêmios para os vencedores!</p>
+                </div>
+                <div class="evento-item">
+                    <h4>Maratona de Subway Surfers</h4>
+                    <p class="evento-data">Domingo, 23 de Julho - 13:00 às 17:00</p>
+                    <p>4 horas consecutivas de Subway Surfers tentando bater o recorde do canal!</p>
+                </div>
+                <div class="evento-item">
+                    <h4>Desafio Clash Royale</h4>
+                    <p class="evento-data">Sábado, 30 de Julho - 16:00</p>
+                    <p>Enfrente-me no Clash Royale! Vencedores ganham códigos de gems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lembrete">
+        <div class="container">
+            <h3>Não perca nenhuma transmissão!</h3>
+            <p>Ative as notificações para ser avisado quando eu começar a transmitir</p>
+            <button class="btn-notificacao">Ativar Lembretes</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MiguelCS Streams</h3>
+                    <p>Transmitindo jogos incríveis com muita diversão e interação.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Conecte-se</h3>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-twitch"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Miguel Costa Silva - Colégio Estadual Professor Ricardo Lunardelli - Turma de Robótica</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
